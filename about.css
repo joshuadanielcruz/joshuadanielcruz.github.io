@@ -1,0 +1,40 @@
+body {
+    background-color: #242424 !important;
+    max-height: 1200px !important;
+}
+
+h3, h6, p {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-family: 'Gloock', serif;
+}
+
+
+h1, h2,h3, h4, h5, h6, a, p {
+    color: #fcf5e7 !important;
+}
+
+img {
+    /* max-width: 90% !important;
+    height: auto; */
+    max-height: 750px;
+}
+
+#mid {
+    background-image: url("./assets/IMG_1656\ horizontal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20em !important;
+    min-width: 100% !important;
+    background-position: center;
+}
+
+#about-dev {
+    max-width: 750px;
+}
+
+#about-music {
+    max-width: 750px;
+}

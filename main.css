@@ -1,0 +1,22 @@
+body {
+    background-color: #fcf5e7 !important;
+    max-height: 1200px !important;
+}
+
+h2, h3, h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+ul li {
+    font-family: 'Gloock', serif;
+}
+
+ul a{
+    color: black;
+}
+
+img {
+    /* max-width: 90% !important;
+    height: auto; */
+    max-height: 1200px;
+}
