@@ -58,10 +58,10 @@ const Resume: React.FC = () => {
   ];
 
   const handleDownloadResume = () => {
-    // Create a link element
+    // Link element
     const link = document.createElement('a');
-    link.href = '/public/Joshua_Cruz_Resume.pdf.pdf';
-    link.download = 'Joshua_Cruz_Resume.pdf'; // This will be the downloaded file name
+    link.href = '/Joshua_Cruz_Resume.pdf';
+    link.download = 'Joshua_Cruz_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

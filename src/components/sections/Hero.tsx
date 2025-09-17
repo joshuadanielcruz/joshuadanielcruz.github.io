@@ -220,7 +220,7 @@ const Hero: React.FC = () => {
 
           {/* Featured Project */}
           <BentoBox 
-            className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 overflow-hidden md:col-span-2"
+            className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 cursor-pointer overflow-hidden md:col-span-2"
             onClick={() => scrollToSection('projects')}
           >
             <h3 className="text-xl font-bold mb-4">Featured Project</h3>
@@ -237,7 +237,7 @@ const Hero: React.FC = () => {
 
           {/* Featured Media */}
           <BentoBox 
-            className="bg-gradient-to-br from-blue-500/10 to-green-500/10 overflow-hidden md:col-span-2"
+            className="bg-gradient-to-br from-blue-500/10 to-green-500/10 cursor-pointer overflow-hidden md:col-span-2"
             onClick={() => scrollToSection('media')}
           >
             <h3 className="text-xl font-bold mb-4">Latest Media</h3>
@@ -260,7 +260,7 @@ const Hero: React.FC = () => {
 
           {/* Resume Box */}
           <BentoBox 
-            className="bg-gradient-to-br from-emerald-500/10 to-teal-500/10 flex flex-col justify-center md:col-span-2 min-h-[200px]"
+            className="bg-gradient-to-br from-emerald-500/10 to-teal-500/10 flex flex-col cursor-pointer justify-center md:col-span-2 min-h-[200px]"
             onClick={() => scrollToSection('resume')}
           >
             <div className="flex items-center mb-2">
@@ -298,7 +298,7 @@ const Hero: React.FC = () => {
 
           {/* Hobbies Preview */}
           <BentoBox 
-            className="bg-gradient-to-br from-rose-500/10 to-pink-500/10 md:col-span-4 overflow-hidden group"
+            className="bg-gradient-to-br from-rose-500/10 to-pink-500/10 md:col-span-4 cursor-pointer overflow-hidden group"
             onClick={() => scrollToSection('hobbies')}
           >
             <div className="flex items-center mb-4">
