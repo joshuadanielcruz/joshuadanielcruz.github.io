@@ -111,7 +111,7 @@ const Hero: React.FC = () => {
           >
             <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden mb-6 ring-4 ring-indigo-500/50">
               <img 
-                src="https://media.licdn.com/dms/image/v2/D5603AQEbuHL2CPF46Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727408803460?e=1750896000&v=beta&t=qTFd7QX8onnCFXqc5SYJDDXQ5sV0S0aPXI22pPc2krE" 
+                src="/joshcruz_profile.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
